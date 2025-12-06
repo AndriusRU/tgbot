@@ -1,18 +1,17 @@
-[project]
+[tool.poetry]
 name = "quiz-tg-bot"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Ячный Андрей Павлович",email = "andrey.yachniy@ifellow.ru"}
+    {name = "Anonimous",email = "Anonimous@mail.ru"}
 ]
-readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "aiogram (>=3.22.0,<4.0.0)",
-    "python-dotenv (>=1.2.1,<2.0.0)"
-]
+
+[tool.poetry.dependencies]
+python = ">=3.13"
+aiogram = ">=3.22.0,<4.0.0)"
+python-dotenv = ">=1.2.1,<2.0.0)"
 
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
