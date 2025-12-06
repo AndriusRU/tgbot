@@ -8,8 +8,8 @@ authors = [
 
 [tool.poetry.dependencies]
 python = ">=3.13"
-aiogram = ">=3.22.0,<4.0.0)"
-python-dotenv = ">=1.2.1,<2.0.0)"
+aiogram = ">=3.22.0,<4.0.0"
+python-dotenv = ">=1.2.1,<2.0.0"
 
 
 [build-system]
