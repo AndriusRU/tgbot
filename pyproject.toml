@@ -2,7 +2,7 @@
 name = "quiz-tg-bot"
 version = "0.1.0"
 description = ""
-authors = ["Anonimous Anonimous@mail.ru"]
+authors = ["Anonimous <Anonimous@mail.ru>"]
 
 [tool.poetry.dependencies]
 python = ">=3.13"
